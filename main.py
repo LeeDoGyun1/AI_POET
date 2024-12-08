@@ -4,6 +4,9 @@ openai.api_key ="sk-proj-kDs5Zr0aKz2R-DS00m1F08twI0rOiWyz5sf_THq4P00LPLHqUyrPw_l
 from dotenv import load_dotenv
 load_dotenv()
 
+from langchain_openai import ChatOpenAI
+chat_model = ChatOpenAI()
+
 
 #from langchain_openai import ChatOpenAI
 #chat_model = ChatOpenAI()
